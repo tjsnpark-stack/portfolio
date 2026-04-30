@@ -108,6 +108,9 @@
     font-weight: 700;
     width: 90px;
 }
+.resort a{
+    margin-top: 100px;
+}
 
 .camera{
     background-color: #FFFAF0;
@@ -164,6 +167,9 @@
 .camera .txt ul li strong{
     font-weight: 700;
     width: 90px;
+}
+.camera a{
+    margin-top: 100px;
 }
 
 .wwf{
@@ -222,6 +228,11 @@
     font-weight: 700;
     width: 90px;
 }
+.wwf a{
+    margin-top: 100px;
+}
+
+
 .thankyou{
     text-align: center;
     background: url(../images/page01.jpg)no-repeat center center / cover;
