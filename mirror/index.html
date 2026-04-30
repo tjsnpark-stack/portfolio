@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
+    <script src="js/main.js"></script>
+    <title>Mirrorlessworld</title>
+</head>
+<body>
+    <div id="wrap">
+        <header class="header">
+            <h1 class="logo"><a href="index.html"><span class="sr-only">미러리스월드 로고</span></a></h1>
+            <nav class="gnb">
+                <button class="gnb_open">
+                    <span class="sr-only">메뉴열기</span>
+                    <svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 1.73077V0H20V1.73077H0ZM0 15V13.2692H20V15H0ZM0 8.36538V6.63462H20V8.36538H0Z" fill="white"/>
+                    </svg>
+                </button>
+                <div class="gnb_wrap">
+                    <div class="gnb_logo"><img src="images/logo_g.svg" alt="미러리스월드"></div>
+                    <ul class="depth1">
+                        <li>
+                            <a href="#n"><span>About</span></a>
+                            <ul class="depth2">
+                                <li><a href="#n"><span>오시는길</span></a></li>
+                                <li><a href="#n"><span>이용안내</span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#n"><span>Camera/ Lens</span></a>
+                            <ul class="depth2">
+                                <li><a href="#n"><span>Fuji film</span></a></li>
+                                <li><a href="#n"><span>Nikon</span></a></li>
+                                <li><a href="#n"><span>Canon</span></a></li>
+                                <li><a href="#n"><span>Panasonic</span></a></li>
+                                <li><a href="#n"><span>Sony</span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#n"><span>Phone</span></a>
+                            <ul class="depth2">
+                                <li><a href="#n"><span>Galaxy</span></a></li>
+                                <li><a href="#n"><span>Iphone</span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#n"><span>Lighting</span></a>
+                            <ul class="depth2">
+                                <li><a href="#n"><span>사진 조명</span></a></li>
+                                <li><a href="#n"><span>영상 조명</span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#n"><span>Acc</span></a>
+                            <ul class="depth2">
+                                <li><a href="#n"><span>삼각대</span></a></li>
+                                <li><a href="#n"><span>메모리카드</span></a></li>
+                                <li><a href="#n"><span>배터리</span></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#n"><span>Reservation</span></a>
+                            <ul class="depth2">
+                                <li><a href="#n"><span>예약신청</span></a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <button class="gnb_close">
+                        <span class="sr-only">메뉴닫기</span>
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.58369 20L0 18.4163L8.41631 10L0 1.58369L1.58369 0L10 8.41631L18.4163 0L20 1.58369L11.5837 10L20 18.4163L18.4163 20L10 11.5837L1.58369 20Z" fill="#FF4400"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="gnb_bg"></div>
+            </nav>
+            <div class="util">
+                <a href="#n" class="login">
+                    <span>로그인</span>
+                </a>
+                <a href="#n" class="login">
+                    <span>회원가입</span>
+                </a>
+                <div class="lang">
+                    <a href="#n"><span>KR</span></a>
+                    <a href="#n"><span>EN</span></a>
+                </div>
+            </div>
+        </header>
+        <main class="container bg_w">
+            <div class="fixed_photo"><img src="images/visual01.png" alt="후지필름카메라"></div>
+            <section class="visual">
+                    <div class="tit own"><span>OWN</span></div>
+                    <div class="tit the"><span>THE MOMENT</span></div>
+                    <div class="tit make"><span>MAKE IT YOURS</span></div>
+            </section>
+            <section class="product">
+                <div class="wrapper">
+                    <div class="list">
+                        <ul>
+                            <li class="Camear">
+                                <a href="#n"><span>Camear</span></a>
+                            </li>
+                            <li class="Lens">
+                                <a href="#n"><span>Lens</span></a>
+                            </li>
+                            <li class="Phone">
+                                <a href="#n"><span>Phone</span></a>
+                            </li>
+                            <li class="Lighting">
+                                <a href="#n"><span>Lighting</span></a>
+                            </li>
+                            <li class="Acc">
+                                <a href="#n"><span>Acc</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="c_type">
+                <div class="tit">
+                    <h2>Which Brand Are<br> You Looking For?</h2>
+                    <p>촬영 스타일에 맞는 카메라를 브랜드별로 쉽게 찾아보세요!</p>
+                </div>
+                <div class="list">
+                    <div class="swiper"> <!-- 팝업의 높이와 넓이를 css에서 줄 수 있는 요소 -->
+                        <ul class="swiper-wrapper"> <!-- 각 팝업 콘텐츠를 감싸는 요소 -->
+                            <li class="swiper-slide">
+                                <a href="#n">
+                                    <div class="photo"><img src="images/c_type01.jpg" alt="파나소닉카메라"></div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#n">
+                                    <div class="photo"><img src="images/c_type02.jpg" alt="캐논카메라"></div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#n">
+                                    <div class="photo"><img src="images/c_type03.jpg" alt="후지필름카메라"></div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#n">
+                                    <div class="photo"><img src="images/c_type04.jpg" alt="니콘카메라"></div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#n">
+                                    <div class="photo"><img src="images/c_type05.jpg" alt="소니카메라"></div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#n">
+                                    <div class="photo"><img src="images/c_type01.jpg" alt="파나소닉카메라"></div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#n">
+                                    <div class="photo"><img src="images/c_type02.jpg" alt="캐논카메라"></div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#n">
+                                    <div class="photo"><img src="images/c_type03.jpg" alt="후지필름카메라"></div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#n">
+                                    <div class="photo"><img src="images/c_type04.jpg" alt="니콘카메라"></div>
+                                </a>
+                            </li>
+                            <li class="swiper-slide">
+                                <a href="#n">
+                                    <div class="photo"><img src="images/c_type05.jpg" alt="소니카메라"></div>
+                                </a>
+                            </li> <!-- 팝업 요소들 (div로 해도 상관없음) -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="more">
+                    <a href="#n">
+                        <span>view more</span>
+                    </a>
+                </div>
+            </section>
+            <section class="most">
+                <div class="wrapper">
+                    <div class="tit">
+                        <h2>Most Popular</h2>
+                        <p>가장 많은 사랑을 받는 상품이에요!</p>
+                    </div>
+                    <div class="list">
+                        <div class="swiper"> <!-- 팝업의 높이와 넓이를 css에서 줄 수 있는 요소 -->
+                            <ul class="swiper-wrapper"> <!-- 각 팝업 콘텐츠를 감싸는 요소 -->
+                                <li class="swiper-slide">
+                                    <a href="#n">
+                                        <div class="photo"><img src="images/most01.png" alt="FUJIFILM X-H2s"><span></span></div>
+                                        <h3>FUJIFILM X-H2s</h3>
+                                        <p>12h  ₩ 44,000<br> 24h  ₩ 49,500</p>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="#n">
+                                        <div class="photo"><img src="images/most02.png" alt="GALAXY S26"><span></span></div>
+                                        <h3>GALAXY S26</h3>
+                                        <p>12h  ₩ 25,000<br> 24h  ₩ 30,000</p>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="#n">
+                                        <div class="photo"><img src="images/most03.png" alt="FUJIFILM X-E5"><span></span></div>
+                                        <h3>FUJIFILM X-E5</h3>
+                                        <p>12h  ₩ 40,000<br> 24h  ₩ 45,000</p>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="#n">
+                                        <div class="photo"><img src="images/most04.png" alt="PANASONIC DC-S5GD-K"><span></span></div>
+                                        <h3>PANASONIC DC-S5GD-K</h3>
+                                        <p>12h  ₩ 39,000<br> 24h  ₩ 44,000</p>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="#n">
+                                        <div class="photo"><img src="images/most05.png" alt="NIKON ZF"><span></span></div>
+                                        <h3>NIKON ZF</h3>
+                                        <p>12h  ₩ 36,000<br> 24h  ₩ 40,000</p>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="#n">
+                                        <div class="photo"><img src="images/most06.png" alt="IPHONE 17 pro"><span></span></div>
+                                        <h3>IPHONE 17 pro</h3>
+                                        <p>12h  ₩ 24,000<br> 24h  ₩ 29,000</p>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="#n">
+                                        <div class="photo"><img src="images/most07.png" alt="FUJIFILM XF33mmF1.4 R LM WR"><span></span></div>
+                                        <h3>FUJIFILM XF33mmF1.4 R LM WR</h3>
+                                        <p>12h  ₩ 30,000<br> 24h  ₩ 35,000</p>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide"> 
+                                    <a href="#n">
+                                        <div class="photo"><img src="images/most08.png" alt="CANON EOS R5 C"><span></span></div>
+                                        <h3>CANON EOS R5 C</h3>
+                                        <p>12h  ₩ 42,000<br> 24h  ₩ 47,000</p>
+                                    </a>
+                                </li>
+                            </ul>   
+                        </div>
+                    </div>
+                    <div class="more">
+                        <a href="#n">
+                            <span>view more</span>
+                        </a>
+                    </div>
+                </div>     
+            </section>
+            <section class="new">
+                <div class="wrapper">
+                    <div class="tit">
+                        <h2>New Arrivals</h2>
+                        <p>방금 입고된 따끈한 장비를 확인해보세요!</p>
+                    </div>
+                    <div class="list">
+                        <div class="swiper"> <!-- 팝업의 높이와 넓이를 css에서 줄 수 있는 요소 -->
+                            <ul class="swiper-wrapper"> <!-- 각 팝업 콘텐츠를 감싸는 요소 -->
+                                <li class="swiper-slide">
+                                    <a href="#n">
+                                        <div class="photo"><img src="images/new01.png" alt="FUJIFILM X-H2"><span></span></div>
+                                        <h3>FUJIFILM X-H2</h3>
+                                        <p>12h  ₩ 44,000<br> 24h  ₩ 49,500</p>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="#n">
+                                        <div class="photo"><img src="images/new02.png" alt="FUJIFILM FUJINON GF250mmF4 R LM OIS WR"><span></span></div>
+                                        <h3>FUJIFILM FUJINON GF250mmF4 R LM OIS WR</h3>
+                                        <p>12h  ₩ 25,000<br> 24h  ₩ 30,000</p>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="#n">
+                                        <div class="photo"><img src="images/new03.png" alt="PANASONIC DC-S9KGD"><span></span></div>
+                                        <h3>PANASONIC DC-S9KGD</h3>
+                                        <p>12h  ₩ 40,000<br> 24h  ₩ 45,000</p>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="#n">
+                                        <div class="photo"><img src="images/new04.png" alt="NIKON ZF"><span></span></div>
+                                        <h3>NIKON ZF</h3>
+                                        <p>12h  ₩ 39,000<br> 24h  ₩ 44,000</p>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="#n">
+                                        <div class="photo"><img src="images/new05.png" alt="CANON RF7-14mm F2.8-3.5 L FISHEYE STM"><span></span></div>
+                                        <h3>CANON RF7-14mm F2.8-3.5 L FISHEYE STM</h3>
+                                        <p>12h  ₩ 36,000<br> 24h  ₩ 40,000</p>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="#n">
+                                        <div class="photo"><img src="images/new06.png" alt="SONY ILCE-7CM2"><span></span></div>
+                                        <h3>SONY ILCE-7CM2</h3>
+                                        <p>12h  ₩ 24,000<br> 24h  ₩ 29,000</p>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="#n">
+                                        <div class="photo"><img src="images/new07.png" alt="SONY ZV-E10M2K"><span></span></div>
+                                        <h3>SONY ZV-E10M2K</h3>
+                                        <p>12h  ₩ 30,000<br> 24h  ₩ 35,000</p>
+                                    </a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="#n">
+                                        <div class="photo"><img src="images/new08.png" alt="CANON EOS C50"><span></span></div>
+                                        <h3>CANON EOS C50</h3>
+                                        <p>12h  ₩ 42,000<br> 24h  ₩ 47,000</p>
+                                    </a>
+                                </li>
+                            </ul>    
+                        </div>
+                    </div>
+                    <div class="more">
+                        <a href="#n">
+                            <span>view more</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="review">
+                <div class="tit">
+                    <h2>Best Reviews</h2>
+                    <p>소중히 담은 찰나의 순간을 감상해보세요!</p>
+                </div>
+                <div class="group">
+                    <div class="photo re01"><img src="images/review01.jpg" alt="노을풍경"></div>
+                    <div class="photo re02"><img src="images/review02.jpg" alt="스노우보드 타는 사람"></div>
+                    <div class="photo re03"><img src="images/review03.jpg" alt="다리를 건너는 사람"></div>
+                </div>
+                <div class="group">    
+                    <div class="photo re04"><img src="images/review04.jpg" alt="사진찍는사람"></div>
+                    <div class="photo re05"><img src="images/review05.jpg" alt="민들레홀씨"></div>
+                    <div class="photo re06"><img src="images/review06.jpg" alt="열기구"></div>
+                </div>
+                <div class="more">
+                    <a href="#n">
+                    <span>view more</span>
+                    </a>
+                </div>    
+            </section>
+            <section class="brand">
+                <div class="list">
+                    <div class="group01">
+                        <div class="photo"><img src="images/brand01.png" alt="후지필름로고"></div>
+                        <div class="photo"><img src="images/brand02.png" alt="캐논로고"></div>
+                        <div class="photo"><img src="images/brand03.png" alt="파나소닉로고"></div>
+                        <div class="photo"><img src="images/brand04.png" alt="니콘로고"></div>
+                        <div class="photo"><img src="images/brand05.png" alt="소니로고"></div>
+                        <div class="photo"><img src="images/brand01.png" alt="후지필름로고"></div>
+                        <div class="photo"><img src="images/brand02.png" alt="캐논로고"></div>
+                        <div class="photo"><img src="images/brand03.png" alt="파나소닉로고"></div>
+                        <div class="photo"><img src="images/brand04.png" alt="니콘로고"></div>
+                        <div class="photo"><img src="images/brand05.png" alt="소니로고"></div>
+                        <div class="photo"><img src="images/brand01.png" alt="후지필름로고"></div>
+                        <div class="photo"><img src="images/brand02.png" alt="캐논로고"></div>
+                        <div class="photo"><img src="images/brand03.png" alt="파나소닉로고"></div>
+                        <div class="photo"><img src="images/brand04.png" alt="니콘로고"></div>
+                        <div class="photo"><img src="images/brand05.png" alt="소니로고"></div>
+                        <div class="photo"><img src="images/brand01.png" alt="후지필름로고"></div>
+                        <div class="photo"><img src="images/brand02.png" alt="캐논로고"></div>
+                        <div class="photo"><img src="images/brand03.png" alt="파나소닉로고"></div>
+                        <div class="photo"><img src="images/brand04.png" alt="니콘로고"></div>
+                        <div class="photo"><img src="images/brand05.png" alt="소니로고"></div>
+                        <div class="photo"><img src="images/brand01.png" alt="후지필름로고"></div>
+                        <div class="photo"><img src="images/brand02.png" alt="캐논로고"></div>
+                        <div class="photo"><img src="images/brand03.png" alt="파나소닉로고"></div>
+                        <div class="photo"><img src="images/brand04.png" alt="니콘로고"></div>
+                        <div class="photo"><img src="images/brand05.png" alt="소니로고"></div>
+                    </div>
+                    <div class="group02">
+                        <div class="photo"><img src="images/brand05.png" alt="소니로고"></div>
+                        <div class="photo"><img src="images/brand04.png" alt="니콘로고"></div>
+                        <div class="photo"><img src="images/brand03.png" alt="파나소닉로고"></div>
+                        <div class="photo"><img src="images/brand02.png" alt="캐논로고"></div>
+                        <div class="photo"><img src="images/brand01.png" alt="후지필름로고"></div>
+                        <div class="photo"><img src="images/brand05.png" alt="소니로고"></div>
+                        <div class="photo"><img src="images/brand04.png" alt="니콘로고"></div>
+                        <div class="photo"><img src="images/brand03.png" alt="파나소닉로고"></div>
+                        <div class="photo"><img src="images/brand02.png" alt="캐논로고"></div>
+                        <div class="photo"><img src="images/brand01.png" alt="후지필름로고"></div>
+                        <div class="photo"><img src="images/brand05.png" alt="소니로고"></div>
+                        <div class="photo"><img src="images/brand04.png" alt="니콘로고"></div>
+                        <div class="photo"><img src="images/brand03.png" alt="파나소닉로고"></div>
+                        <div class="photo"><img src="images/brand02.png" alt="캐논로고"></div>
+                        <div class="photo"><img src="images/brand01.png" alt="후지필름로고"></div>
+                        <div class="photo"><img src="images/brand05.png" alt="소니로고"></div>
+                        <div class="photo"><img src="images/brand04.png" alt="니콘로고"></div>
+                        <div class="photo"><img src="images/brand03.png" alt="파나소닉로고"></div>
+                        <div class="photo"><img src="images/brand02.png" alt="캐논로고"></div>
+                        <div class="photo"><img src="images/brand01.png" alt="후지필름로고"></div>
+                        <div class="photo"><img src="images/brand05.png" alt="소니로고"></div>
+                        <div class="photo"><img src="images/brand04.png" alt="니콘로고"></div>
+                        <div class="photo"><img src="images/brand03.png" alt="파나소닉로고"></div>
+                        <div class="photo"><img src="images/brand02.png" alt="캐논로고"></div>
+                        <div class="photo"><img src="images/brand01.png" alt="후지필름로고"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="wrapper">
+                <div class="inner">
+                    <div class="photo"><img src="images/logo_w.svg" alt="미러리스월드 로고"></div>
+                    <div class="f_nav">
+                        <ul>
+                            <li><a href="#n"><span>이용약관</span></a></li>
+                            <li><a href="#n"><span>개인정보 처리방침</span></a></li>
+                            <li><a href="#n"><span>FAQ</span></a></li>
+                            <li><a href="#n"><span>고객센터</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="f_info">
+                        <span>사업자등록번호 : 314-06-50416 </span><span>통신판매업신고 : 대전 서구-0369호</span><span>대표자 : 이미화</span><br>
+                        <span>주소 : 대전 서구 계룡로 676 301호 (용문동)</span><span>전화번호 : 010-8968-6456</span><span>Email : kyuksa1@naver.com</span>
+                    </div>
+                    <div class="copyright"><span>Copyright(c) All Rights Reserved.</span><br><span>광고담당자 : 정동균</span></div>
+                </div>
+                <div class="right_inner">
+                <div class="text_stroke"><strong>Focus on your</strong><br><span>memories.</span></div>
+                    <div class="f_sns">
+                        <a href="#n" class="kakao"><span></span></a>
+                        <a href="#n" class="face"><span></span></a>
+                        <a href="#n" class="naver"><span></span></a>
+                        <a href="#n" class="instar"><span></span></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
