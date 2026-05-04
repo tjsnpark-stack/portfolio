@@ -183,6 +183,10 @@ $(document).ready(function(){
         }
     });
 
+    window.addEventListener('resize', () => {
+    support.style.setProperty('--bg-opacity', 0);
+    });
+
 
 
 })//document.ready(맨끝)
