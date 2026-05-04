@@ -164,10 +164,10 @@ $(document).ready(function(){
     })
 
 
-    const wrap = document.querySelector('.support_wrap');
+   const wrap = document.querySelector('.support_wrap');
     const support = document.querySelector('.support');
 
-    window.addEventListener('scroll', () => {
+    function updateScroll(){
         const rect = wrap.getBoundingClientRect();
         const windowHeight = window.innerHeight;
 
@@ -181,11 +181,10 @@ $(document).ready(function(){
         } else {
             support.classList.remove('active');
         }
-    });
+    }
 
-    window.addEventListener('resize', () => {
-    support.style.setProperty('--bg-opacity', 0);
-    });
+    window.addEventListener('scroll', updateScroll);
+    window.addEventListener('resize', updateScroll);
 
 
 
