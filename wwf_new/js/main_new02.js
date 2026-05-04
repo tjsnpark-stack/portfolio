@@ -163,4 +163,26 @@ $(document).ready(function(){
         $('.newsletter .subscript .regist .email .email_domain').removeClass('open')
     })
 
+
+    const wrap = document.querySelector('.support_wrap');
+    const support = document.querySelector('.support');
+
+    window.addEventListener('scroll', () => {
+        const rect = wrap.getBoundingClientRect();
+        const windowHeight = window.innerHeight;
+
+        let progress = -rect.top / (wrap.offsetHeight - windowHeight);
+        progress = Math.max(0, Math.min(progress, 1));
+
+        support.style.setProperty('--bg-opacity', progress);
+
+        if(progress > 0.3){
+            support.classList.add('active');
+        } else {
+            support.classList.remove('active');
+        }
+    });
+
+
+
 })//document.ready(맨끝)
