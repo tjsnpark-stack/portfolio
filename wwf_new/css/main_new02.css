@@ -660,8 +660,10 @@
 
 @media screen and (max-width:1024px) {
     .activity {
+        height: auto;
         align-items: flex-start;
         flex-direction: column;
+        margin-bottom: 50px;
     }
     .activity .m_tit {
         display: block;
