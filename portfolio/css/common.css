@@ -19,12 +19,7 @@ body{
 #wrap{
     position: relative;
 }
-@media screen and (max-width:1360px){ /* 1260+50+50  */
-    .wrapper{
-        width: auto;
-        margin: 0 var(--wrapper-margin);
-    }
-}
+
 /* html 표준때문에 입력해야하는 태그이지만 홈페이지에 나오지 않는
    태그에 주는 클래스 */
 .sr-only, .skip, .blind {
